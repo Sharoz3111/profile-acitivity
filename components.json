@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "import Button from '@/components/Button';@/components",
+    "utils": "import Button from '@/components/Button';@/lib/utils",
+    "ui": "import Button from '@/components/Button';@/components/ui",
+    "lib": "import Button from '@/components/Button';@/lib",
+    "hooks": "import Button from '@/components/Button';@/hooks"
+  },
+  "iconLibrary": "lucide"
+}
